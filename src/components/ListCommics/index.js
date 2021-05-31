@@ -10,8 +10,8 @@ const ListCommic = ({ title, items }) => {
                 <List>
                     {items.data.results.length > 0 && items.data.results.map((item, key) => (
                         <Item key={key}>
-                            <Subtitle>{item.title}</Subtitle>
                             <Image src={`${item.thumbnail.path}.${item.thumbnail.extension}`} />
+                            <Subtitle>{item.title}</Subtitle>
                         </Item>
                     ))}
                 </List>
