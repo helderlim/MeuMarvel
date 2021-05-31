@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import './App.css';
 import service from './service';
 import Homepage from './pages/Homepage/index'
 
