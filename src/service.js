@@ -11,14 +11,10 @@ export default {
     getHomeList: async () => {
         return [
             {
-                slug: 'series',
-                title: 'series',
-                items: await basicFetch(`/series?ts=1&apikey=${API_KEY}`)
-            },
-            {
                 slug: 'commics',
                 title: 'commics',
-                items: await basicFetch(`/comics?ts=1&apikey=${API_KEY}`)
+                items: await basicFetch(`/comics?ts=1&apikey=${API_KEY}`), 
+
             },
            
         ]

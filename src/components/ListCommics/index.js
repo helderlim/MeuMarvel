@@ -1,5 +1,5 @@
 import react from 'react';
-import { Container, ListArea, List, Image, Item,Subtitle, MenuLeft } from './styles';
+import { Container, ListArea, List, Image, Item,Subtitle } from './styles';
 
 const ListCommic = ({ title, items }) => {
     console.log(items.data.results);
@@ -16,9 +16,6 @@ const ListCommic = ({ title, items }) => {
                     ))}
                 </List>
             </ListArea>
-
-
-
         </Container>
     )
 }

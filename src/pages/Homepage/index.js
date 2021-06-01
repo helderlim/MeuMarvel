@@ -1,19 +1,20 @@
 import React from 'react';
 import ListCommic from '../../components/ListCommics';
+import MenuLeft from '../../components/MenuLeft';
+import {Container, Box} from './styles';
 
 
 export default ({ title, items }) => {
-    console.log(items.data.results);
     return (
-        <div>
-            
-
-            
+        <Container>  
+            <MenuLeft />  
+            <Box>
             <ListCommic
                 items={items}
                 title={title}
-                />         
-           
-        </div>
+                />  
+            </Box>        
+                   
+        </Container>
     )
 }

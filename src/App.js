@@ -9,7 +9,7 @@ const App = () => {
         const loadAll = async () => {
             //pegando a lista total 
             let list = await service.getHomeList();
-            console.log(list[0].items.data.results[3].title);
+            
             setMovieList(list);
         }
         loadAll();
