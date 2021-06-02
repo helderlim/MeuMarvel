@@ -16,13 +16,12 @@ export const ListArea = styled.div`
 `;
 
 export const List = styled.div`
-
+  
 `;
 export const Subtitle = styled.p`
   position: absolute;
-  top: 350px;
-  right: 20px;
-  font-size: 13px;
+  top: 320px;
+  font-size: 17px;
   font-weight: bold;
   text-align: center;
   
@@ -46,7 +45,6 @@ export const Item = styled.div`
 export const Image = styled.img`
     width: 100%;
     height: 100%;
-   
     mask-image: linear-gradient(to top, transparent 1%, black 50%);
    
 `;
