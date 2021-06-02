@@ -1,7 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import './App.css';
 import service from './service';
-import Homepage from './pages/Homepage/index'
+import Homepage from './pages/Homepage/index';
+import AccessAlarmIcon from '@material-ui/icons/AccessAlarm';
+import ThreeDRotation from '@material-ui/icons/ThreeDRotation';
 
 const App = () => {
     const [movieList, setMovieList] = useState([]);

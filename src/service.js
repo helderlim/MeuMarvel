@@ -12,9 +12,13 @@ export default {
         return [
             {
                 slug: 'commics',
-                title: 'commics',
-                items: await basicFetch(`/comics?ts=1&apikey=${API_KEY}`), 
-
+                title: 'Commics',
+                items: await basicFetch(`/comics?ts=1&apikey=${API_KEY}`),
+            },
+            {
+                slug: 'series',
+                title: 'Séries',
+                items: await basicFetch(`/series?ts=1&apikey=${API_KEY}`),
             },
            
         ]

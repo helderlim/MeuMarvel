@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Container = styled.div`
     height: 100vh;
-    width: 50px;
+    width: 40px;
     z-index: 999;
     background-color: black;
     position: fixed;
@@ -12,6 +12,8 @@ export const Container = styled.div`
     }
 `;
 export const List = styled.div`
+    display: flex;
+    flex-direction: column;
     max-width: 25ch;
     height: 100vh;
     overflow: hidden;
@@ -25,5 +27,17 @@ export const List = styled.div`
 `;
 
 export const PointList = styled.a`
-    
+    padding-left: 10px;
+    font-size: 15px;
+`;
+export const Item = styled.div`
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 50px;
+    cursor:pointer;
+    transition: all ease 0.2s;
+    &:hover{
+        color:red;
+    }
 `;
