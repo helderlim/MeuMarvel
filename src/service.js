@@ -6,21 +6,14 @@ const basicFetch = async (endpoint) => {
     const json = await req.json();
     return json;
 }
-
 export default {
     getHomeList: async () => {
         return [
             {
                 slug: 'commics',
                 title: 'Commics',
-                items: await basicFetch(`/comics?ts=1&apikey=${API_KEY}`),
-            },
-            {
-                slug: 'series',
-                title: 'Séries',
-                items: await basicFetch(`/series?ts=1&apikey=${API_KEY}`),
-            },
-           
+                items: await basicFetch(`/comics?ts=1&apikey=${API_KEY}`)                
+            },           
         ]
     }
 }

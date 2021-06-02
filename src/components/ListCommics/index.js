@@ -1,8 +1,9 @@
 import react from 'react';
-import { Container, ListArea, List, Image, Item,Subtitle } from './styles';
+import { Container, ListArea, List, Image, Item, Subtitle } from './styles';
 
 const ListCommic = ({ title, items }) => {
     console.log(items.data.results);
+
     return (
         <Container>
             <h2>{title} </h2>

@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   padding-left: 50px;
+  
 `;
 
 export const Title = styled.h1`
@@ -33,6 +34,8 @@ export const Item = styled.div`
     width: 248px;
     height: 420px;
     transform: scale(0.93);
+    cursor:pointer;
+   
     transition: all ease 0.2s;
     &:hover {
     transform: scale(1);
@@ -43,6 +46,7 @@ export const Item = styled.div`
 export const Image = styled.img`
     width: 100%;
     height: 100%;
-    -webkit-mask-image: linear-gradient(to top, transparent 1%, black 50%);
+   
+    mask-image: linear-gradient(to top, transparent 1%, black 50%);
    
 `;
