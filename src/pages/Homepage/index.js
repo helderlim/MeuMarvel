@@ -2,7 +2,7 @@ import React, { useEffect, useState }from 'react';
 import Header from '../../components/Header';
 import ListCommic from '../../components/ListCommics';
 import MenuLeft from '../../components/MenuLeft';
-import {Container, Box} from './styles';
+import {Container, Box, Loading, Image} from './styles';
 import service from '../../service';
 
 const Homepage = () => {
@@ -28,8 +28,12 @@ const Homepage = () => {
                 items={item.items}
                 />  
             ))}
-            </Box>        
-                   
+            </Box> 
+            {movieList.length <= 0 && 
+                <Loading>
+                <Image src="https://steamuserimages-a.akamaihd.net/ugc/948471635620655778/092A8E2EB6F19BEADC8D3570DD7DC8432D7B6EEF/"/>
+                </Loading>      
+            }
         </Container>
     )
 }
