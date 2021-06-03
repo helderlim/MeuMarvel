@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/MeuMarvel/static/css/main.0d821d09.chunk.css",
-    "main.js": "/MeuMarvel/static/js/main.a18cc947.chunk.js",
-    "main.js.map": "/MeuMarvel/static/js/main.a18cc947.chunk.js.map",
-    "runtime-main.js": "/MeuMarvel/static/js/runtime-main.86149735.js",
-    "runtime-main.js.map": "/MeuMarvel/static/js/runtime-main.86149735.js.map",
-    "static/js/2.e5defc52.chunk.js": "/MeuMarvel/static/js/2.e5defc52.chunk.js",
-    "static/js/2.e5defc52.chunk.js.map": "/MeuMarvel/static/js/2.e5defc52.chunk.js.map",
-    "index.html": "/MeuMarvel/index.html",
-    "static/css/main.0d821d09.chunk.css.map": "/MeuMarvel/static/css/main.0d821d09.chunk.css.map",
-    "static/js/2.e5defc52.chunk.js.LICENSE.txt": "/MeuMarvel/static/js/2.e5defc52.chunk.js.LICENSE.txt"
+    "main.css": "/static/css/main.0d821d09.chunk.css",
+    "main.js": "/static/js/main.a18cc947.chunk.js",
+    "main.js.map": "/static/js/main.a18cc947.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.9efd6f72.js",
+    "runtime-main.js.map": "/static/js/runtime-main.9efd6f72.js.map",
+    "static/js/2.3db61a64.chunk.js": "/static/js/2.3db61a64.chunk.js",
+    "static/js/2.3db61a64.chunk.js.map": "/static/js/2.3db61a64.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.0d821d09.chunk.css.map": "/static/css/main.0d821d09.chunk.css.map",
+    "static/js/2.3db61a64.chunk.js.LICENSE.txt": "/static/js/2.3db61a64.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.86149735.js",
-    "static/js/2.e5defc52.chunk.js",
+    "static/js/runtime-main.9efd6f72.js",
+    "static/js/2.3db61a64.chunk.js",
     "static/css/main.0d821d09.chunk.css",
     "static/js/main.a18cc947.chunk.js"
   ]
