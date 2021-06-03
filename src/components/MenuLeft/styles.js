@@ -10,6 +10,7 @@ export const Container = styled.div`
     &:hover{
         width: 150px;
     }
+   
 `;
 export const List = styled.div`
     display: flex;

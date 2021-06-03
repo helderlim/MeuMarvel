@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const Container = styled.div`
   padding-left: 50px;
   
+  
 `;
 
 export const Title = styled.h1`
@@ -12,7 +13,7 @@ export const Title = styled.h1`
 `;
 
 export const ListArea = styled.div`
-    overflow-x: hidden;
+    
 `;
 
 export const List = styled.div`
@@ -24,6 +25,10 @@ export const Subtitle = styled.p`
   font-size: 17px;
   font-weight: bold;
   text-align: center;
+  @media(max-width: 800px) {
+    top: 150px;
+    font-size: 10px;
+  }; 
   
 `;
 
@@ -39,7 +44,11 @@ export const Item = styled.div`
     &:hover {
     transform: scale(1);
   }
-   
+  @media(max-width: 800px) {
+    width: 154px;
+    height: 220px;
+    
+  };   
     
 `;
 export const Image = styled.img`

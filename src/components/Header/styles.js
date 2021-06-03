@@ -8,6 +8,10 @@ export const Container = styled.div`
     display: flex;
     align-items: center;
     justify-content: space-between;
+    @media(max-width: 800px) {
+    width: 100%;
+  }; 
+    
 `;
 export const Title = styled.p`
     font-weight: 900;
@@ -24,4 +28,7 @@ export const Select = styled.a`
     &:hover{
         color: #E01126;
     }
+    @media(max-width: 800px) {
+    opacity: 0;
+  }; 
 `;
