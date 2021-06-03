@@ -1,32 +1,12 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import './App.css';
-import service from './service';
-import Homepage from './pages/Homepage/index';
-import AccessAlarmIcon from '@material-ui/icons/AccessAlarm';
-import ThreeDRotation from '@material-ui/icons/ThreeDRotation';
+import Routes from './routes';
 
 const App = () => {
-    const [movieList, setMovieList] = useState([]);
-    useEffect(() => {
-        const loadAll = async () => {
-            //pegando a lista total 
-            let list = await service.getHomeList();
-            
-            setMovieList(list);
-        }
-        loadAll();
-    }, []);
-
     return (
         <div className="page">
             <section className="listis">
-                {movieList.map((item, key) => (
-                    <Homepage key={key}
-                        title={item.title}
-                        items={item.items}
-                    />
-                ))}
-
+                <Routes />
             </section>
         </div>
     )
