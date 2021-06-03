@@ -30,7 +30,7 @@ export const PointList = styled.a`
     padding-left: 10px;
     font-size: 15px;
 `;
-export const Item = styled.div`
+export const Item = styled.a`
     display: flex;
     flex-direction: row;
     align-items: center;
