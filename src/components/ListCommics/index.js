@@ -1,5 +1,5 @@
 import react from 'react';
-import { Container, ListArea, List, Image, Item, Subtitle } from './styles';
+import { Container, ListArea, List, Image, Item, Subtitle,  } from './styles';
 
 const ListCommic = ({ title, items }) => {
     console.log(items.data.results);
@@ -13,6 +13,7 @@ const ListCommic = ({ title, items }) => {
                         <Item key={key}>
                             <Image src={`${item.thumbnail.path}.${item.thumbnail.extension}`} />
                             <Subtitle>{item.title}</Subtitle>
+                           
                         </Item>
                     ))}
                 </List>

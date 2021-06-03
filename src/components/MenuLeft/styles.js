@@ -19,13 +19,12 @@ export const List = styled.div`
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
-    
+    padding-left: 4px;
     &:hover{
         opacity: 1;
         width: 150px;
     }
 `;
-
 export const PointList = styled.a`
     padding-left: 10px;
     font-size: 15px;
@@ -40,4 +39,12 @@ export const Item = styled.div`
     &:hover{
         color:red;
     }
+`;
+export const Line = styled.div`
+    border: 5px #555454 solid;
+`;
+export const Image = styled.img`
+    height: 37px;
+    width: 30px;
+    border-radius: 50%;
 `;
